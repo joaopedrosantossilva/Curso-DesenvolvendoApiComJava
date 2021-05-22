@@ -4,9 +4,9 @@ Construindo uma API Rest de consulta de cidades do Brasil do zero até a produç
 Projeto desenvolvido seguindo as aulas do digital innovation one. 
 
 Utilizado nesse projeto:
-Gradle
-Git
-Java 8
-Docker
-IntelliJ Community
-Heroku CLI
+- Gradle
+- Git
+- Java 8
+- Docker
+- IntelliJ Community
+- Heroku CLI
