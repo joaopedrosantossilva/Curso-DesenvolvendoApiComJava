@@ -5,7 +5,11 @@ import com.github.joaopedrosantossilva.cidadesapi.cidades.repository.CidadeRepos
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
+@RequestMapping("/cidades")
 public class ResourceCidade {
 
     private final CidadeRepository repository;
